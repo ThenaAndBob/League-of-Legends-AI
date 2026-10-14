@@ -1062,9 +1062,8 @@ class LiveGameParser:
 
 
 if __name__ == "__main__":
-    bob = LiveGameParser(api_key="0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z")
+    bob = LiveGameParser(api_key="0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z") # I AM AWARE THAT THIS IS LEAKED INTO THE REPO. This is a publically available api key.
 
-    
     for (count, game) in enumerate(bob.get_live_game_jsons()):
         print(f"{count}: {game['team1_blue']} vs {game['team2_red']}")
         with open("/Users/gig/Documents/Code/LOL_AI/user_input/" + str(count) + ".json", "w") as f:
