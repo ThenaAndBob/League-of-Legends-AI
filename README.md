@@ -16,6 +16,3 @@ then you run gold_chain.py    to train the regression models.
 then you run punish_weakness.py to train the classifier.
 
 punish weakness epoch 22?
-# League-of-Legends-AI
-# League-of-Legends-AI
-# League-of-Legends-AI
