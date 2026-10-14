@@ -17,3 +17,4 @@ then you run punish_weakness.py to train the classifier.
 
 punish weakness epoch 22?
 # League-of-Legends-AI
+# League-of-Legends-AI
