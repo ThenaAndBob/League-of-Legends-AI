@@ -1,0 +1,6 @@
+trash/
+*.csv
+tensors/
+prev_data/
+all_mid/
+models/
